@@ -1,4 +1,4 @@
-# movieTestApp
+# movieApp
 
 This app shows popular movies collection and details on the movie.
 
@@ -17,10 +17,6 @@ Project was done in:
 
 ## Installation
 * Download the github folder and run
-
-## Design system
-
- <img width="700" height="700" src="https://github.com/Crowntopsss/movieTestApp/blob/main/Images/img4.png" alt="">
 
 #### The following functionality is completed:
 
