@@ -1,10 +1,3 @@
-//
-//  SignInViewController.swift
-//  movieTestApp
-//
-//  Created by Temitope on 08/12/2023.
-//
-
 import UIKit
 
 class SignInViewController: UIViewController {

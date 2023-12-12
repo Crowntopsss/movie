@@ -1,10 +1,3 @@
-//
-//  OnboardingViewController.swift
-//  movieTestApp
-//
-//  Created by Temitope on 08/12/2023.
-//
-
 import UIKit
 
 class OnboardingViewController: UIViewController {
