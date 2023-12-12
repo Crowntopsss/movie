@@ -1,4 +1,4 @@
-# movieTestApp
+# movieApp
 
 This app shows popular movies collection and details on the movie.
 
