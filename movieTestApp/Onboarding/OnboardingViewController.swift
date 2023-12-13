@@ -10,14 +10,14 @@ class OnboardingViewController: UIViewController {
     
     @IBAction func signUpAction(_ sender: UIButton) {
         let storyBoard = UIStoryboard(name: "Storyboard", bundle: nil)
-        let vc = storyBoard.instantiateViewController(identifier: "SignInViewController")
+        let vc = storyBoard.instantiateViewController(identifier: "RegisterViewController")
         
         navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func signInAction(_ sender: UIButton) {
         let storyBoard = UIStoryboard(name: "Storyboard", bundle: nil)
-        let vc = storyBoard.instantiateViewController(identifier: "RegisterViewController")
+        let vc = storyBoard.instantiateViewController(identifier: "SignInViewController")
         
         navigationController?.pushViewController(vc, animated: true)
     }

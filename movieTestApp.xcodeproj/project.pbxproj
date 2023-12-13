@@ -11,6 +11,8 @@
 		D13791E82B129711001539BF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13791E72B129711001539BF /* OnboardingViewController.swift */; };
 		D13791EA2B12974D001539BF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13791E92B12974D001539BF /* RegisterViewController.swift */; };
 		D13791EC2B12984C001539BF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13791EB2B12984C001539BF /* SignInViewController.swift */; };
+		D19E23292B29EBD40023E18F /* OfflineServiveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E23272B29EBD40023E18F /* OfflineServiveAPI.swift */; };
+		D19E232A2B29EBD40023E18F /* OnlineMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19E23282B29EBD40023E18F /* OnlineMovieService.swift */; };
 		D1C4C2E228D66D6C00503889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C2E128D66D6C00503889 /* AppDelegate.swift */; };
 		D1C4C2E428D66D6C00503889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C2E328D66D6C00503889 /* SceneDelegate.swift */; };
 		D1C4C2EC28D66D6C00503889 /* movieTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C2EA28D66D6C00503889 /* movieTestApp.xcdatamodeld */; };
@@ -23,8 +25,6 @@
 		D1C4C34728D670D700503889 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C32528D670D700503889 /* DBManager.swift */; };
 		D1C4C34828D670D700503889 /* PopularMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C32628D670D700503889 /* PopularMovieViewModel.swift */; };
 		D1C4C34E28D670D700503889 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C32E28D670D700503889 /* Movie.swift */; };
-		D1C4C34F28D670D700503889 /* OnlineMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C33028D670D700503889 /* OnlineMovieService.swift */; };
-		D1C4C35028D670D700503889 /* OfflineServiveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C33128D670D700503889 /* OfflineServiveAPI.swift */; };
 		D1C4C35128D670D700503889 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C33228D670D700503889 /* MovieService.swift */; };
 		D1C4C35228D670D700503889 /* PopularMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C33428D670D700503889 /* PopularMovieViewController.swift */; };
 		D1C4C35528D670D700503889 /* PopularMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4C33928D670D700503889 /* PopularMovieView.swift */; };
@@ -72,6 +72,8 @@
 		D13791E72B129711001539BF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		D13791E92B12974D001539BF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D13791EB2B12984C001539BF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D19E23272B29EBD40023E18F /* OfflineServiveAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineServiveAPI.swift; sourceTree = "<group>"; };
+		D19E23282B29EBD40023E18F /* OnlineMovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineMovieService.swift; sourceTree = "<group>"; };
 		D1C4C2DE28D66D6C00503889 /* movieTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C4C2E128D66D6C00503889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C4C2E328D66D6C00503889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,8 +90,6 @@
 		D1C4C32528D670D700503889 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		D1C4C32628D670D700503889 /* PopularMovieViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovieViewModel.swift; sourceTree = "<group>"; };
 		D1C4C32E28D670D700503889 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		D1C4C33028D670D700503889 /* OnlineMovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineMovieService.swift; sourceTree = "<group>"; };
-		D1C4C33128D670D700503889 /* OfflineServiveAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineServiveAPI.swift; sourceTree = "<group>"; };
 		D1C4C33228D670D700503889 /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		D1C4C33428D670D700503889 /* PopularMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovieViewController.swift; sourceTree = "<group>"; };
 		D1C4C33928D670D700503889 /* PopularMovieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovieView.swift; sourceTree = "<group>"; };
@@ -236,8 +236,8 @@
 		D1C4C32F28D670D700503889 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				D1C4C33028D670D700503889 /* OnlineMovieService.swift */,
-				D1C4C33128D670D700503889 /* OfflineServiveAPI.swift */,
+				D19E23272B29EBD40023E18F /* OfflineServiveAPI.swift */,
+				D19E23282B29EBD40023E18F /* OnlineMovieService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -503,6 +503,7 @@
 				D1C4C2E228D66D6C00503889 /* AppDelegate.swift in Sources */,
 				D1C4C34128D670D700503889 /* CustomHttpError.swift in Sources */,
 				D1C4C35628D670D700503889 /* MovieRepository.swift in Sources */,
+				D19E23292B29EBD40023E18F /* OfflineServiveAPI.swift in Sources */,
 				D1C4C35528D670D700503889 /* PopularMovieView.swift in Sources */,
 				E9F5C0C92B2967AB005E6D9E /* CustomError.swift in Sources */,
 				D1C4C34228D670D700503889 /* URLConstants.swift in Sources */,
@@ -511,10 +512,9 @@
 				E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */,
 				D1C4C2EC28D66D6C00503889 /* movieTestApp.xcdatamodeld in Sources */,
 				D13791EC2B12984C001539BF /* SignInViewController.swift in Sources */,
-				D1C4C34F28D670D700503889 /* OnlineMovieService.swift in Sources */,
 				D1C4C34828D670D700503889 /* PopularMovieViewModel.swift in Sources */,
+				D19E232A2B29EBD40023E18F /* OnlineMovieService.swift in Sources */,
 				D1C4C37228D7619300503889 /* MovieInfoViewModel.swift in Sources */,
-				D1C4C35028D670D700503889 /* OfflineServiveAPI.swift in Sources */,
 				D13791E82B129711001539BF /* OnboardingViewController.swift in Sources */,
 				D1C4C37528D7621600503889 /* MoreInfoViewController.swift in Sources */,
 				D1C4C2E428D66D6C00503889 /* SceneDelegate.swift in Sources */,
