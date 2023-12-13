@@ -47,6 +47,7 @@
 		E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C62B29672E005E6D9E /* Extensions.swift */; };
 		E9F5C0C92B2967AB005E6D9E /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C82B2967AB005E6D9E /* CustomError.swift */; };
 		E9F5C0CC2B2968C3005E6D9E /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0CB2B2968C3005E6D9E /* ImageCacheManager.swift */; };
+		E9F5C0CE2B296926005E6D9E /* GenericViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0CD2B296926005E6D9E /* GenericViewContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		E9F5C0C62B29672E005E6D9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E9F5C0C82B2967AB005E6D9E /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		E9F5C0CB2B2968C3005E6D9E /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		E9F5C0CD2B296926005E6D9E /* GenericViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				E9F5C0CB2B2968C3005E6D9E /* ImageCacheManager.swift */,
+				E9F5C0CD2B296926005E6D9E /* GenericViewContoller.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				E9F5C0C52B29664B005E6D9E /* StringConstants.swift in Sources */,
 				D1C4C36B28D7410300503889 /* MovieCollectionViewCell.swift in Sources */,
 				D13791EA2B12974D001539BF /* RegisterViewController.swift in Sources */,
+				E9F5C0CE2B296926005E6D9E /* GenericViewContoller.swift in Sources */,
 				D1C4C35C28D7199A00503889 /* MovieEntity+CoreDataProperties.swift in Sources */,
 				D1C4C36028D7231600503889 /* ImageData+CoreDataProperties.swift in Sources */,
 				D1C4C2E228D66D6C00503889 /* AppDelegate.swift in Sources */,
