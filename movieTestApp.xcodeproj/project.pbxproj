@@ -43,6 +43,7 @@
 		D1C4C38F28D7D87A00503889 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4C38C28D7D87A00503889 /* img2.png */; };
 		D1C4C39128D7D8AB00503889 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4C39028D7D8AB00503889 /* img4.png */; };
 		E9F5C0C32B2965C6005E6D9E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C22B2965C6005E6D9E /* Decoder.swift */; };
+		E9F5C0C52B29664B005E6D9E /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C42B29664B005E6D9E /* StringConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		D1C4C38C28D7D87A00503889 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
 		D1C4C39028D7D8AB00503889 /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4.png; sourceTree = "<group>"; };
 		E9F5C0C22B2965C6005E6D9E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		E9F5C0C42B29664B005E6D9E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				E9F5C0C22B2965C6005E6D9E /* Decoder.swift */,
+				E9F5C0C42B29664B005E6D9E /* StringConstants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				D1C4C35128D670D700503889 /* MovieService.swift in Sources */,
 				D1C4C35B28D7199A00503889 /* MovieEntity+CoreDataClass.swift in Sources */,
 				D1C4C35F28D7231600503889 /* ImageData+CoreDataClass.swift in Sources */,
+				E9F5C0C52B29664B005E6D9E /* StringConstants.swift in Sources */,
 				D1C4C36B28D7410300503889 /* MovieCollectionViewCell.swift in Sources */,
 				D13791EA2B12974D001539BF /* RegisterViewController.swift in Sources */,
 				D1C4C35C28D7199A00503889 /* MovieEntity+CoreDataProperties.swift in Sources */,
