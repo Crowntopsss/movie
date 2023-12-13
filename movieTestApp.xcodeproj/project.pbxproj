@@ -46,6 +46,7 @@
 		E9F5C0C52B29664B005E6D9E /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C42B29664B005E6D9E /* StringConstants.swift */; };
 		E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C62B29672E005E6D9E /* Extensions.swift */; };
 		E9F5C0C92B2967AB005E6D9E /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C82B2967AB005E6D9E /* CustomError.swift */; };
+		E9F5C0CC2B2968C3005E6D9E /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0CB2B2968C3005E6D9E /* ImageCacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		E9F5C0C42B29664B005E6D9E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		E9F5C0C62B29672E005E6D9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E9F5C0C82B2967AB005E6D9E /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		E9F5C0CB2B2968C3005E6D9E /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		D1C4C2E028D66D6C00503889 /* movieTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E9F5C0CA2B2968AE005E6D9E /* Utils */,
 				E9F5C0C12B2965AA005E6D9E /* Helper */,
 				D13791E62B1296ED001539BF /* Onboarding */,
 				D1C4C36328D7235C00503889 /* Service */,
@@ -337,6 +340,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		E9F5C0CA2B2968AE005E6D9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5C0CB2B2968C3005E6D9E /* ImageCacheManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -492,6 +503,7 @@
 				E9F5C0C92B2967AB005E6D9E /* CustomError.swift in Sources */,
 				D1C4C34228D670D700503889 /* URLConstants.swift in Sources */,
 				D1C4C35228D670D700503889 /* PopularMovieViewController.swift in Sources */,
+				E9F5C0CC2B2968C3005E6D9E /* ImageCacheManager.swift in Sources */,
 				E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */,
 				D1C4C2EC28D66D6C00503889 /* movieTestApp.xcdatamodeld in Sources */,
 				D13791EC2B12984C001539BF /* SignInViewController.swift in Sources */,
