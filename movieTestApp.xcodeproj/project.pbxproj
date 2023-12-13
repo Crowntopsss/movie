@@ -42,6 +42,7 @@
 		D1C4C38E28D7D87A00503889 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4C38B28D7D87A00503889 /* img3.png */; };
 		D1C4C38F28D7D87A00503889 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4C38C28D7D87A00503889 /* img2.png */; };
 		D1C4C39128D7D8AB00503889 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4C39028D7D8AB00503889 /* img4.png */; };
+		E9F5C0C32B2965C6005E6D9E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C22B2965C6005E6D9E /* Decoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		D1C4C38B28D7D87A00503889 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
 		D1C4C38C28D7D87A00503889 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
 		D1C4C39028D7D8AB00503889 /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4.png; sourceTree = "<group>"; };
+		E9F5C0C22B2965C6005E6D9E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		D1C4C2E028D66D6C00503889 /* movieTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E9F5C0C12B2965AA005E6D9E /* Helper */,
 				D13791E62B1296ED001539BF /* Onboarding */,
 				D1C4C36328D7235C00503889 /* Service */,
 				D1C4C32328D670D700503889 /* Modules */,
@@ -315,6 +318,14 @@
 				D1C4C38B28D7D87A00503889 /* img3.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		E9F5C0C12B2965AA005E6D9E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5C0C22B2965C6005E6D9E /* Decoder.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +490,7 @@
 				D13791E82B129711001539BF /* OnboardingViewController.swift in Sources */,
 				D1C4C37528D7621600503889 /* MoreInfoViewController.swift in Sources */,
 				D1C4C2E428D66D6C00503889 /* SceneDelegate.swift in Sources */,
+				E9F5C0C32B2965C6005E6D9E /* Decoder.swift in Sources */,
 				D1C4C34E28D670D700503889 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
