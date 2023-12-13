@@ -44,6 +44,7 @@
 		D1C4C39128D7D8AB00503889 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4C39028D7D8AB00503889 /* img4.png */; };
 		E9F5C0C32B2965C6005E6D9E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C22B2965C6005E6D9E /* Decoder.swift */; };
 		E9F5C0C52B29664B005E6D9E /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C42B29664B005E6D9E /* StringConstants.swift */; };
+		E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C62B29672E005E6D9E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		D1C4C39028D7D8AB00503889 /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4.png; sourceTree = "<group>"; };
 		E9F5C0C22B2965C6005E6D9E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		E9F5C0C42B29664B005E6D9E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		E9F5C0C62B29672E005E6D9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +329,7 @@
 			children = (
 				E9F5C0C22B2965C6005E6D9E /* Decoder.swift */,
 				E9F5C0C42B29664B005E6D9E /* StringConstants.swift */,
+				E9F5C0C62B29672E005E6D9E /* Extensions.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				D1C4C35528D670D700503889 /* PopularMovieView.swift in Sources */,
 				D1C4C34228D670D700503889 /* URLConstants.swift in Sources */,
 				D1C4C35228D670D700503889 /* PopularMovieViewController.swift in Sources */,
+				E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */,
 				D1C4C2EC28D66D6C00503889 /* movieTestApp.xcdatamodeld in Sources */,
 				D13791EC2B12984C001539BF /* SignInViewController.swift in Sources */,
 				D1C4C34F28D670D700503889 /* OnlineMovieService.swift in Sources */,
