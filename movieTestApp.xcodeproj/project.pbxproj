@@ -45,6 +45,7 @@
 		E9F5C0C32B2965C6005E6D9E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C22B2965C6005E6D9E /* Decoder.swift */; };
 		E9F5C0C52B29664B005E6D9E /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C42B29664B005E6D9E /* StringConstants.swift */; };
 		E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C62B29672E005E6D9E /* Extensions.swift */; };
+		E9F5C0C92B2967AB005E6D9E /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5C0C82B2967AB005E6D9E /* CustomError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		E9F5C0C22B2965C6005E6D9E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		E9F5C0C42B29664B005E6D9E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		E9F5C0C62B29672E005E6D9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9F5C0C82B2967AB005E6D9E /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +332,7 @@
 				E9F5C0C22B2965C6005E6D9E /* Decoder.swift */,
 				E9F5C0C42B29664B005E6D9E /* StringConstants.swift */,
 				E9F5C0C62B29672E005E6D9E /* Extensions.swift */,
+				E9F5C0C82B2967AB005E6D9E /* CustomError.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				D1C4C34128D670D700503889 /* CustomHttpError.swift in Sources */,
 				D1C4C35628D670D700503889 /* MovieRepository.swift in Sources */,
 				D1C4C35528D670D700503889 /* PopularMovieView.swift in Sources */,
+				E9F5C0C92B2967AB005E6D9E /* CustomError.swift in Sources */,
 				D1C4C34228D670D700503889 /* URLConstants.swift in Sources */,
 				D1C4C35228D670D700503889 /* PopularMovieViewController.swift in Sources */,
 				E9F5C0C72B29672E005E6D9E /* Extensions.swift in Sources */,
